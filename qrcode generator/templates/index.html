@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator for MSMEs</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QR Code Generator for MSMEs</h1>
+        <form id="qr-form">
+            <label for="data">Enter Data:</label>
+            <input type="text" id="data" name="data" placeholder="Enter URL or text" required>
+            <button type="submit">Generate QR Code</button>
+        </form>
+        <h2>Preview:</h2>
+        <img id="qr-preview" src="" alt="QR Code Preview">
+    </div>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
